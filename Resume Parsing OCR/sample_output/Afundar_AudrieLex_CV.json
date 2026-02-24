@@ -1,0 +1,50 @@
+{
+    "personal_info": {
+        "first_name": "Audrie",
+        "last_name": "Lex L. Afundar",
+        "email": "audrielex.].afundar@gmail.com",
+        "phone": "+63-922-322-5905",
+        "address": "Sarmiento Homes, San Jose Del Monte, Bulacan, 3023",
+        "city": "Bulacan",
+        "country": "Philippines"
+    },
+    "experiences": [
+        {
+            "job_title": "Data Analyst",
+            "company": "TAMStats - Statistical Poll for Student Elections",
+            "dates": "2023-2024",
+            "responsibilities": "Designed and managed a statistical poll using stratified random sampling. Led data analysis for thousands of responses during the 2023-2024 elections. Worked as a surveyor during the 2023 elections."
+        },
+        {
+            "job_title": "Back-End Developer",
+            "company": "TAMLuv - Course Match Making App",
+            "dates": "2023-2024",
+            "responsibilities": "Developed the back-end of the app. Collaborated with front-end developers to ensure a smooth user experience. Designed and implemented based on user preferences."
+        },
+        {
+            "job_title": "Data Scientist",
+            "company": "System Vérité - Holistic Verification App",
+            "dates": "2024-2025",
+            "responsibilities": "Developed a rudimentary CNN model for forge signature detection. Created a signature detection system using camera and YOLO. Developed a verification form using OTP for emails."
+        }
+    ],
+    "education": [
+        {
+            "degree": "Bachelor of Science in Applied Mathematics with Data Science Track",
+            "institution": "Far Eastern University (FEU)",
+            "graduation_date": "2022-01-08",
+            "details": "Dean’s List: 1st Honors (A.Y. 2024-2025), 2nd Honors (A.Y. 2023-2024), 1st Honors (A.Y. 2022-2023). High Honors in STEM (2021-2022). With Honors in Science (2020-2021). With Honors in High School (2016-2020)."
+        },
+        {
+            "degree": "Senior High School Education - STEM Strand",
+            "institution": "School of Our Lady of La Salette",
+            "graduation_date": "2020-06-01",
+            "details": "With High Honors (A.Y. 2021-2022). With Honors (A.Y. 2020-2021). With Honors (A.Y. 2016-2020). Competed in CSANPRISA, a city-wide swimming competition."
+        }
+    ],
+    "skills": {
+        "technical": "Python, R, SQL, Excel, C, Tensorflow, Ultralytics, pandas, SciPy, NumPy, Tidyverse, glmnet, caret, MASS, ggplot2, Matplotlib, seaborn, Tableau, MySQL",
+        "soft": "",
+        "interests": "Data Science, Machine Learning, Statistical Analysis, Data Visualization, Database Systems, Mathematics"
+    }
+}

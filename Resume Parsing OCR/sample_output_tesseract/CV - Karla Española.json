@@ -1,0 +1,110 @@
+{
+    "personal_info": {
+        "first_name": "KARLA",
+        "last_name": "C. ESPANOLA",
+        "email": "karlacorpuze@gmail.com",
+        "phone": "+63 954 317 7568",
+        "address": "Sito Bungahan Brgy. Itlugan Rosario, Batangas, Philippines",
+        "city": "Batangas",
+        "country": "Philippines"
+    },
+    "experiences": [
+        {
+            "job_title": "Engineering Coordinator/DOE Assistant",
+            "company": "Marsa Arabia Island (St. Regis) - Qatar",
+            "dates": "1 December, 2023 - 27 August, 2024",
+            "responsibilities": "GXP Monitoring (Guests & Associates Complains), Transcendent (Managing the work in the property), MESH (Marriott Environmental and Sustainability Hub), Hits (Payroll), OPERA (Room Status), Building Link (Guests & Associates Complains), BirchStreet (Material Request), Department Presentation, Preparation & Rectification of Owners Audit"
+        },
+        {
+            "job_title": "Engineering Coordinator/DOE Assistant",
+            "company": "Doha Oasis Investment Lacigal Musherb - Qatar",
+            "dates": "15 November, 2021 - 30 November, 2023",
+            "responsibilities": "Giving report/work update to my superior, Receiving/handling hotel and residence complaints, Handling insource/outsource staff, Monthly utility reports of hotel and residence, Purchasing records, inventory, and orders to control the monthly/yearly budget, Audit for Finance, FIFA, HACCP, MOPH, QCDD, AMC contract/supplier records to find it easily, Receiving delivery/invoice, Forms monitoring that needed for monthly operation, Staff attendance/leave/holiday/overtime, Coordinating with HR for my department staff needs, Department birthdays/gatherings, Coordinating with all the departments, contractors, subcontractors of the company, Sending emails for all the maintenance needed to schedule"
+        },
+        {
+            "job_title": "Receptionist",
+            "company": "Dallah Gym - Qatar",
+            "dates": "14 September, 2019 - 20 October, 2021",
+            "responsibilities": "Updating staff/members records, shop and cafeteria inventory (MS Excel), Preparing staff payroll and commission, Handling customer complaints, Handling maintenance issues, Reporting and updating the supervisor/managers daily"
+        },
+        {
+            "job_title": "Client Support Officer",
+            "company": "Golden Summit Immigration Consultancy (New Zealand) - Philippines",
+            "dates": "28 February, 2019 - 4 May, 2019",
+            "responsibilities": "Providing the details and requirements needed of the client who wants to study and work, Conducting seminar events to educate people let them ask and inquire to the school representatives, and especially the licensed immigration adviser, Supervising the documentation and submitting data of clients until they arrived to the country"
+        }
+    ],
+    "education": [
+        {
+            "degree": "BS Hotel and Restaurant Management",
+            "institution": "Norzagaray College",
+            "graduation_date": "2011",
+            "details": "Norzagaray, Bulacan"
+        },
+        {
+            "degree": "Norzagaray National High School",
+            "institution": "Norzagaray National High School",
+            "graduation_date": "2010",
+            "details": "Norzagaray, Bulacan"
+        },
+        {
+            "degree": "Norzagaray Elementary School",
+            "institution": "Norzagaray Elementary School",
+            "graduation_date": "2005",
+            "details": "Norzagaray, Bulacan"
+        },
+        {
+            "degree": "Lucas R. Pascual Memorial Elementary School",
+            "institution": "Lucas R. Pascual Memorial Elementary School",
+            "graduation_date": "2004",
+            "details": "Caloocan City"
+        },
+        {
+            "degree": "Metropolitan School of Business and Management UK (Online)",
+            "institution": "Metropolitan School of Business and Management UK (Online)",
+            "graduation_date": "2021",
+            "details": "Self-Learning Techniques, Effective Presentation Skills"
+        },
+        {
+            "degree": "TESDA Online STAR Online Training Program, Managing your Personal Finances, Start and Improve Your Business",
+            "institution": "TESDA Online STAR Online Training Program",
+            "graduation_date": "2020",
+            "details": "June 22, 2020"
+        },
+        {
+            "degree": "TESDA Online Orienting Oneself to Environmentally Sustainable Work Standards, Receiving and Responding to Workplace Communication",
+            "institution": "TESDA Online Orienting Oneself to Environmentally Sustainable Work Standards",
+            "graduation_date": "2020",
+            "details": "June 23, 2020"
+        },
+        {
+            "degree": "FIFA World Cup Qatar 2022",
+            "institution": "FIFA World Cup Qatar 2022",
+            "graduation_date": "2022",
+            "details": "Spectator Services - Volunteer, 20 November-18 December, 2022"
+        },
+        {
+            "degree": "Lusail Super Cup Qatar",
+            "institution": "Lusail Super Cup Qatar",
+            "graduation_date": "2022",
+            "details": "Spectator Services - Volunteer, 9 September,2022"
+        },
+        {
+            "degree": "Enertech Qatar",
+            "institution": "Enertech Qatar",
+            "graduation_date": "2022",
+            "details": "Certified First Aider, 17 July, 2022"
+        },
+        {
+            "degree": "Spartan Race Qatar",
+            "institution": "Spartan Race Qatar",
+            "graduation_date": "2022",
+            "details": "Volunteer, 25 March, 2022"
+        }
+    ],
+    "skills": {
+        "technical": "Basic Computer (MS Word, MS Excel, MS Power Point), Flexible to shifting schedules, Fast Learner, Can do multi-tasking jobs, Teamwork, Leadership, Can work under pressure",
+        "soft": "",
+        "interests": ""
+    }
+}

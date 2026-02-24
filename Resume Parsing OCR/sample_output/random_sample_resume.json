@@ -1,0 +1,71 @@
+
+{
+  "Personal Information": {
+    "name": "Fake Name",
+    "email": "contact@Email",
+    "phone": "(123) 456-7890",
+    "city": "City, ST"
+  },
+  "Work Experience": [
+    {
+      "job_title": "Senior Relationship Banker",
+      "company": "Very Large Bank",
+      "date": "June 2022 - Present",
+      "responsibilities": [
+        "Prospected for new business as well as deepening existing customer relationships, both consumers and business.",
+        "Worked alongside corporate partners in Wealth Management, Merchant Services, Treasury Management, and Commercial Banking to drive referral-based business growth.",
+        "Performed teller, administrative, compliance, and management duties as assigned to staffing shortages."
+      ]
+    },
+    {
+      "job_title": "Relationship Banker",
+      "company": "Regional Bank",
+      "date": "November 2019 - June 2022",
+      "responsibilities": [
+        "Facilitated consumer and small business lending at BIG CITY branch, routinely booking over $2 million in loans per month, over 80% of total annual goal.",
+        "Opened and managed consumer and business accounts, becoming a top five performer nationwide for both cross sales and customer satisfaction.",
+        "Served as point of contact between branch employees and referral-driven office departments, such as Private Bank, Middle Market Commercial Banking, and Investments."
+      ]
+    },
+    {
+      "job_title": "Universal Banker",
+      "company": "Universal Bank",
+      "date": "November 2015 - September 2021",
+      "responsibilities": [
+        "Served as backup to Relationship Banker at high-traffic branch, helping drive cross sales and new business.",
+        "Worked directly with commercial lending to submit and approve high volume of PTP loans for new and existing credit customers during COVID-19 pandemic."
+      ]
+    },
+    {
+      "job_title": "Small Credit Union Member Assistance Specialist",
+      "company": "Small Credit Union",
+      "date": "January 2017 - November 2019",
+      "responsibilities": [
+        "Opened and managed consumer and business accounts, as well as consumer loans, at LOCAL Branch."
+      ]
+    },
+    {
+      "job_title": "Labor Union",
+      "company": "Labor Union",
+      "date": "September 2015 - October 2015",
+      "responsibilities": [
+        "Worked with a small team to design and successfully implement a statewide plan to manually enroll over seven thousand public employees in health insurance after failure of STATE INSURANCE EXCHANGE."
+      ]
+    }
+  ],
+  "Education": [
+    {
+      "degree": "Large State School",
+      "institution": "BS, Sociology",
+      "graduation_date": "Graduated May 2013"
+    }
+  ],
+  "Skills": [
+    {
+      "skill": "Creative problem-solving; needs assessment; customer service; employee onboarding; logistics management; strategic communications; data analysis; Microsoft Office; Google Workspace; Asana; Zoho; Salesforce; Basecamp."
+    },
+    {
+      "skill": "Interests: Performing and composing music; powerlifting; cooking; home brewing; writing; tinkering."
+    }
+  ]
+}

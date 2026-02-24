@@ -1,0 +1,32 @@
+{
+    "personal_info": {
+        "first_name": "Christian",
+        "last_name": "Miguel",
+        "email": "cmiguelrodillas @ gmail.com",
+        "phone": "+63-969-239-0979",
+        "address": "37-A MLL. Quezon St. Barangay Tugatog, Malabon City, Metro Manila 1470",
+        "city": "Malabon City",
+        "country": "Philippines"
+    },
+    "experiences": [
+        {
+            "job_title": "Data and AI/ML Intern",
+            "company": "Tango Technologies Incorporated",
+            "dates": "August 2025 - Present",
+            "responsibilities": "Deployed and managed solutions and database management in Alibaba Cloud, leveraging Docker for containerized environments. Implemented data orchestration tools and automated workflows to streamline data pipelines using n8n. Designed and executed ETL processes using Pandas, Polars, and PostgreSQL, and ELT processes using dlt, ensuring efficient data integration and transformation. Conducted data analysis to generate actionable insights and planned scalable database architectures to support business needs."
+        }
+    ],
+    "education": [
+        {
+            "degree": "Bachelor of Science in Applied Mathematics with Data Science Track",
+            "institution": "Far Eastern University (FEU)",
+            "graduation_date": "Present",
+            "details": "Running QPA: 3.54; Dean’s Lister First Honor (2024 -2025, 3rd year, 2nd semester); Dean’s Lister First Honor (2023 -2024, 2nd year, Ist and 2nd semester); Dean’s Lister First Honor (2022 -2023, Ist year, 2nd semester); Dean’s Lister Second Honor (2022 -2023, Ist year, 1st semester)"
+        }
+    ],
+    "skills": {
+        "technical": "Python, R, SQL, Excel, Tableau, Git/GitHub, Jupyter Notebook, MySQL, PostgreSQL, Docker, Amazon Web Services, Alibaba Cloud, n8n, Apache Airflow",
+        "soft": "Data Science, Programming, Machine Learning, Statistical Inference, Regression Analysis, Feature Engineering, Predictive Modeling",
+        "interests": ""
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "personal_info": {
+        "first_name": "",
+        "last_name": "",
+        "email": "mostafakhafaji2004@gmail.com",
+        "phone": "+63 9454380363",
+        "address": "",
+        "city": "",
+        "country": ""
+    },
+    "experiences": [
+        {
+            "job_title": "Data Analyst Intern",
+            "company": "Tango Technologies Incorporated",
+            "dates": "January 2025 - Present",
+            "responsibilities": "Helped develop an unconventional credit scoring tool utilizing machine learning, improving the current model by 12%. Currently involved in developing an update to the company database and data warehouse, projected to hasten other department's business intelligence insight acquisitions by at least twofold. Developed Dashboards tracking the company’s health."
+        },
+        {
+            "job_title": "Associate Director for Data Collection and Analysis",
+            "company": "IAS Student Council - Research and Data Analytics Department",
+            "dates": "May 2024 - May 2025",
+            "responsibilities": "Created data collection tools, and analyzed gathered data descriptively using analysis tools. Was also tasked to create grading sheets and grade trackers for the Institute, spanning 15 departments and allowing ease in grading and tracking of acceptance of more than a hundred applicants."
+        },
+        {
+            "job_title": "Executive Committee",
+            "company": "Far Eastern University CSO - Data Analytics Department",
+            "dates": "October 2022 - May 2025",
+            "responsibilities": "In a special project, the department conducted on-the-ground polling regarding the university elections. The project successfully predicted 90% of the winners of the elections. Gathered and analyzed data from the student body of Far Eastern University."
+        }
+    ],
+    "education": [
+        {
+            "degree": "BS Applied Mathematics - Data Science Track",
+            "institution": "Far Eastern University - Manila Campus",
+            "graduation_date": "August 2022 - Present",
+            "details": "Key Courses: Calculus 1, 2, & 3, Fundamentals of Computing 1 (C), Fundamentals of Computing 2 (Python), Discrete Mathematics, Database, Data Structures and Algorithms, Multimedia (HTML), Probability and Probability Distributions, Statistical Theory, Data Warehousing and Management, Introduction to Data Science."
+        }
+    ],
+    "skills": {
+        "technical": "Coding: C, Python, SQL; Spreadsheets: Excel, Google Sheets; Analysis: Jasp, Excel, Python, Power BI, SQL",
+        "soft": "",
+        "interests": ""
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "personal_info": {
+        "first_name": "OLIVIA",
+        "last_name": "WILSON",
+        "email": "hello@reallygreatsite.com",
+        "phone": "+123-456-7890"
+    },
+    "experiences": [
+        {
+            "job_title": "Product Design Manager",
+            "company": "Ginyard International Co.",
+            "dates": "2020 - 2023",
+            "responsibilities": "Working with the wider development team. Managing website design, content, and SEO Marketing, Branding and Logo Design."
+        },
+        {
+            "job_title": "Product Design Manager",
+            "company": "Arowwai Industries",
+            "dates": "2019 - 2020",
+            "responsibilities": "Working with the wider development team. Managing website design, content, and SEO Marketing, Branding and Logo Design."
+        },
+        {
+            "job_title": "Product Design Manager",
+            "company": "Ginyard International Co.",
+            "dates": "2017 - 2019",
+            "responsibilities": "Working with the wider development team. Managing website design, content, and SEO Marketing, Branding and Logo Design."
+        }
+    ],
+    "education": [
+        {
+            "degree": "Bachelor of Design",
+            "institution": "Wardiere University",
+            "graduation_date": "2008",
+            "details": "2006 - 2008"
+        }
+    ],
+    "skills": {
+        "technical": "",
+        "soft": "",
+        "interests": "e¢ Management Skills, Digital Marketing, Negotiation, Critical Thinking, Communication Skills"
+    }
+}

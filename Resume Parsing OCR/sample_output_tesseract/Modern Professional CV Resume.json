@@ -1,0 +1,44 @@
+{
+    "personal_info": {
+        "first_name": "Alfredo",
+        "last_name": "Torres",
+        "email": "hello@reallygreatsite.com",
+        "phone": "123-456-7890",
+        "address": "123 Anywhere St., Any City",
+        "city": "Any City",
+        "country": ""
+    },
+    "experiences": [
+        {
+            "job_title": "Marketing Manager & Specialist",
+            "company": "Borcelle Studio",
+            "dates": "2030 - PRESENT",
+            "responsibilities": "Develop and execute comprehensive marketing strategies and campaigns that align with the company's goals and objectives. Lead, mentor, and manage a high-performing marketing team, fostering a collaborative and results-driven work environment. Monitor brand consistency across marketing channels and materials."
+        },
+        {
+            "job_title": "Marketing Manager & Specialist",
+            "company": "Fauget Studio",
+            "dates": "2025 - 2029",
+            "responsibilities": "Create and manage the marketing budget, ensuring efficient allocation of resources and optimizing ROI. Oversee market research to identify emerging trends, customer needs, and competitor strategies. Monitor brand consistency across marketing channels and materials."
+        }
+    ],
+    "education": [
+        {
+            "degree": "Master of Business Management",
+            "institution": "Borcelle University",
+            "graduation_date": "2029 - 2030",
+            "details": "2029 - 2030"
+        },
+        {
+            "degree": "Bachelor of Business Management",
+            "institution": "Borcelle University",
+            "graduation_date": "2025 - 2029",
+            "details": "2025 - 2029"
+        }
+    ],
+    "skills": {
+        "technical": "",
+        "soft": "Project Management, Public Relations, Teamwork, Time Management, Leadership, Effective Communication, Critical Thinking",
+        "interests": ""
+    }
+}

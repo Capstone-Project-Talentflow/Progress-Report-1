@@ -1,0 +1,20 @@
+resume_data = {
+        'resume_id': resume_id,
+        'created_at': datetime.now().isoformat(),
+        'personal_info': {
+            'first_name': '',
+            'last_name': '',
+            'email': '',
+            'phone': '',
+            'address': '',
+            'city': '',
+            'country': ''
+        },
+        'experiences': [],
+        'education': [],
+        'skills': {
+            'technical': '',
+            'soft': '',
+            'interests': ''
+        }
+    }

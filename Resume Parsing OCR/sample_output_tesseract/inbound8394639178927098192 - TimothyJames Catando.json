@@ -1,0 +1,68 @@
+{
+    "personal_info": {
+        "first_name": "TIMOTHY",
+        "last_name": "JAMES F. CATANDO",
+        "email": "timothycatandol989@gmail.com",
+        "phone": "0997-294-9297",
+        "address": "Block 6 Lot 13 Villa Muzon Classique, Jupiter Street, Baragay Vicente, Santa Maria Bulacan",
+        "city": "Bulacan",
+        "country": "Philippines"
+    },
+    "experiences": [
+        {
+            "job_title": "Elementary Teacher",
+            "company": "Gymnazo Christian Academy",
+            "dates": "June 2019 — June 2022",
+            "responsibilities": "Teaching in elementary school, responsible for lesson planning and student engagement."
+        },
+        {
+            "job_title": "Elementary Teacher",
+            "company": "Adonai Conservative Baptist Academy",
+            "dates": "June 2015 - March 2017",
+            "responsibilities": "Teaching in elementary school, responsible for lesson planning and student engagement."
+        },
+        {
+            "job_title": "Assistant Restaurant Manager",
+            "company": "Jollibee Tungkong Mangga",
+            "dates": "August 2025 — December 2025",
+            "responsibilities": "Managing the restaurant operations, including customer service and kitchen crew coordination."
+        },
+        {
+            "job_title": "Service & Kitchen Crew",
+            "company": "McDonald’s 8th Street Caloocan",
+            "dates": "October 2022 - July 2025",
+            "responsibilities": "Performing service and kitchen tasks, ensuring efficient operations."
+        },
+        {
+            "job_title": "Assistant Restaurant Manager",
+            "company": "Shakey’s SM Manila",
+            "dates": "April 2021 — September 2021",
+            "responsibilities": "Managing the restaurant operations, including customer service and kitchen crew coordination."
+        }
+    ],
+    "education": [
+        {
+            "degree": "Bachelor of Elementary Education",
+            "institution": "Loral Douglas Woosley Bethany Colleges",
+            "graduation_date": "2017",
+            "details": "Major in General Education, completed from 2008 to 2017."
+        },
+        {
+            "degree": "Secondary Education",
+            "institution": "Muzon High School (MHS)",
+            "graduation_date": "2005 - 2007",
+            "details": "Completed 3rd year of high school, 4th year 2005-2007."
+        },
+        {
+            "degree": "Secondary Education",
+            "institution": "Macario Bustamante Asistio Senior High School (MBASH)",
+            "graduation_date": "2003 - 2005",
+            "details": "Completed 1st year of high school, 2nd year 2003-2005."
+        }
+    ],
+    "skills": {
+        "technical": "Proficient in MS/Word, Power Point & Excel, Seminar Facilitator, BEST MALE FACILITATOR, Can communicate in English & Tagalog, Knowledgeable in test with expertise in lesson planning and creating teaching modules",
+        "soft": "Fast Learner, Volunteer teacher in our community",
+        "interests": "Seminars / Workshops Attended: Loral Douglas Woosley Bethany Colleges, April 13, 2018; 'TEACHING THE MILLENNIALS: A SEMINAR ON INNOVATIVE TEACHING AND STRATEGIES'; CSM Building, Pascor Drive, Sto. Nino, Paranaque City, Church Strengthening Ministry, Inc., July 8, 2017; A2Z Creative TEACHING METHOD; CSM Building, Pascor Drive, Sto. Nino, Paranaque City, Church Strengthening Ministry, Inc., June 24, 2017; Bullproof: Approaches and Strategies to Bullying Prevention; Adonai Conservative Baptist Academy, SCHOOL OF TOMORROW, PHILIPPINES, April 29, 2016; Christian Educators' Training 'HONOR B' 5 Days Training; PBS UN Ave. Manila, September 2, 2014; Sharpening Your Point: A Conference on Public Speaking & Presentation; Bethany Baptist Church, Christian Storytelling Network Philippines, December 7, 2013; Crafting and Presenting an Unforgettable Story; Catalyst Vibal, SMX Convention Center, Pasay City. July 19 & 20, 2013; National Forum on Successful Teaching: 'Effective Tools for Maximum Achievement and Character Formation'; Ateneo de Manila University, STEP UP INTERNATIONAL SERVICES INC., August 10, 2013; STEP UP 2nd International Educators Conference 'Education Beyond Borders'"
+    }
+}

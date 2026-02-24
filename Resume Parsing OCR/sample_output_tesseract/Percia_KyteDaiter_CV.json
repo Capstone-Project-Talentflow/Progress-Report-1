@@ -1,0 +1,86 @@
+{
+    "personal_info": {
+        "first_name": "Kyte",
+        "last_name": "Percia",
+        "email": "kytedaitero@gmail.com",
+        "phone": "+63-926-066-0018",
+        "address": "0182 Blk. 5, Mangga St., Old Sta. Mesa, Manila",
+        "city": "Manila",
+        "country": "Philippines"
+    },
+    "experiences": [
+        {
+            "job_title": "President",
+            "company": "FEU Institute of Arts and Sciences Student Council (IAS SC)",
+            "dates": "Jun 2025 — Present",
+            "responsibilities": "Served as Chief Executive, leading strategic planning, governance, and data-driven student welfare initiatives. Oversaw internal and external affairs, ensuring alignment with university policies and student needs."
+        },
+        {
+            "job_title": "Assistant Lead, Member Development",
+            "company": "START DOST — Scholars Transforming Advancement and Research for Technology",
+            "dates": "Jan 2025 — Present",
+            "responsibilities": "Led member development portfolio for DOST scholars through mentorship, workshops, and networking. Designed initiatives for needs-assessment training for scholar growth in research and technology advocacy."
+        },
+        {
+            "job_title": "Treasurer",
+            "company": "FEU Institute of Arts and Sciences Student Council (IAS SC)",
+            "dates": "Jun 2024 — May 2025",
+            "responsibilities": "Chaired the Finance, Sponsorship, and Logistics Department of the council. Managed financial records including budgets, proposals, and liquidations reports while overseeing fundraising initiatives and sponsorship negotiations."
+        },
+        {
+            "job_title": "Director",
+            "company": "Data Analytics Department — FEU Central Student Organization",
+            "dates": "Jul 2023 — May 2024",
+            "responsibilities": "Spearheaded survey design, data analysis, and forecasting for student petitions and policies. Served as internal consultant on spreadsheets and databases (Google Sheets, Excel). Conducted student needs assessments and policy evaluations."
+        },
+        {
+            "job_title": "Secretariat, Office of the Vice President for External Affairs",
+            "company": "Adamson University Senior High School Supreme Student Government",
+            "dates": "Oct 2021 — Jul 2022",
+            "responsibilities": "Managed communications and paperwork for external affairs. Organized events and promoted student government programs. Collected and disseminated data relevant to student concerns."
+        },
+        {
+            "job_title": "Campus Ambassador",
+            "company": "Kinobi",
+            "dates": "Nov 2021 — Jan 2022",
+            "responsibilities": "Promoted Kinobi’s career development platform via social media campaigns. Conducted a culminating marketing project to connect students to career opportunities."
+        },
+        {
+            "job_title": "President & Founder",
+            "company": "Eureka! Mathematics Coordinating Club",
+            "dates": "Jun 2019 — Mar 2020",
+            "responsibilities": "Founded the first-ever high school mathematics club. Led academic initiatives, meetings, and external representation."
+        },
+        {
+            "job_title": "On-The-Job Trainee",
+            "company": "Fe Del Mundo Training Center",
+            "dates": "Nov 2019 — Feb 2020",
+            "responsibilities": "Completed 150 hours of training in database encoding, customer support, and materials preparation. Built interpersonal and adaptability skills while supporting administrative operations."
+        }
+    ],
+    "education": [
+        {
+            "degree": "Bachelor of Science in Applied Mathematics (Data Science Track)",
+            "institution": "Far Eastern University",
+            "graduation_date": "Aug 2022 — Present",
+            "details": "Current QPA: 3.46 / 4.00"
+        },
+        {
+            "degree": "Senior High School Diploma in Science, Technology, Engineering, and Mathematics (STEM) Education",
+            "institution": "Adamson University",
+            "graduation_date": "Aug 2020 — Jul 2022",
+            "details": "GWA: 96.52 / 100.00"
+        },
+        {
+            "degree": "Junior High School Diploma",
+            "institution": "Polytechnic University of the Philippines",
+            "graduation_date": "Jun 2016 — Apr 2020",
+            "details": "Major in Entrepreneurship"
+        }
+    ],
+    "skills": {
+        "technical": "Data Analytics & Visualization, Advanced Spreadsheet (Excel, Google Sheets), Mathematics & Statistics Foundation, Programming: Python, R, SQL, C, Project Management & Policy Development, Communication (Written & Verbal), Organizational Finance & Sponsorship, Problem-Solving & Critical Thinking",
+        "soft": "Strategic Leadership & Governance, Interpersonal & Adaptability Skills, Leadership, Critical Thinking, Communication",
+        "interests": "Data Science, Database Management, Project Execution, Student Governance, Research, Community Engagement, Technology, Innovation, Education, Inclusivity, Digital Marketing, Business Intelligence, Sign Language Technology"
+    }
+}
