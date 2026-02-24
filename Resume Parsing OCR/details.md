@@ -1,6 +1,15 @@
+
+### Requirements
+
+```
+pip install pytessract, llama_cpp, pdf2image
+```
+
+Manual install of tesseract is also needed.
+
 ## A series of approaches to parsing business artifacts (Resume, Curriculum Vitae, or Bio Data) into json format, to be used dynamically in programs. 
 
-Specified JSON format looks as such:
+The specified JSON format looks as such:
 
 resume_data = {
         'resume_id': resume_id,
