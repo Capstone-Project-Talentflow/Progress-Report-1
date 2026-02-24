@@ -40,6 +40,8 @@ However, for this parsing, "resume_id" and "created_at" fields are omitted, left
 
 **Second,** a hybrid approach was used: Tesseract for OCR, and a small large language model (Qwen3 1.7b Instruct). This also generated satisfactory results, but with long latency (~10 minutes for a 3-page resume). This is leagues better than the previous option, but is still not fast enough for Theits purpose.
 
-The next step would be to use a quantized GGUF version of then small large language model, allowing small machines to work the model more efficiently, as well as to attempt using granite-docling-256m-VLM by IBM and Docling. This was previously attempted but kept resulting in errors
+**Third,** since the bottleneck seems to be the application of the LLM, we used the quantized GGUF version of Qwen 1.7B Instruct. Using this, we are able to run parsing for 3-page resumes for only 5 minutes maximum.
+
+The next step would be to attempt using granite-docling-256m-VLM by IBM and Docling. This was previously attempted but kept resulting in errors
 
 Another step to take, if the above is still lacking, is to fine tune the quantized Qwen3 1.7b Instruct model for resume parsing purposes.                                                                                                                                                                                
