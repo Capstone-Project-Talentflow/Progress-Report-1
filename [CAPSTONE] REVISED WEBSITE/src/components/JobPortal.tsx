@@ -3,6 +3,7 @@ import { Button } from './ui/button';
 import { Search, MapPin, DollarSign, X } from 'lucide-react';
 import { useState } from 'react';
 import svgPaths from '../imports/svg-3nnvnkmfcx';
+import featuredJobPoster from 'figma:asset/69a79d0864f76398cf7c9e0b7e138a413d134914.png';
 
 export function JobPortal() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -10,8 +11,206 @@ export function JobPortal() {
   const [searchType, setSearchType] = useState<'any' | 'exact'>('any');
   const [isSearching, setIsSearching] = useState(false);
   const [activeFilters, setActiveFilters] = useState<string[]>([]);
+  const [showPosterModal, setShowPosterModal] = useState(false);
 
   const jobsData = [
+    // QCON Jobs - Featured Opportunities
+    {
+      id: 7,
+      title: 'HEAVY EQUIPMENT OPERATOR',
+      company: 'QCON (Qatar Engineering & Construction)',
+      location: 'Doha, Qatar',
+      salary: 'PHP 75,000-85,000',
+      vacancies: 25,
+      posted: '2 days ago',
+      type: 'landbased',
+      placementFee: false,
+      education: 'high-school',
+      experience: true
+    },
+    {
+      id: 8,
+      title: 'TRUCK DRIVER (1,2,3,4,5,15)',
+      company: 'QCON (Qatar Engineering & Construction)',
+      location: 'Doha, Qatar',
+      salary: 'PHP 65,000-75,000',
+      vacancies: 30,
+      posted: '2 days ago',
+      type: 'landbased',
+      placementFee: false,
+      education: 'high-school',
+      experience: true
+    },
+    {
+      id: 9,
+      title: 'FORKLIFT OPERATOR',
+      company: 'QCON (Qatar Engineering & Construction)',
+      location: 'Doha, Qatar',
+      salary: 'PHP 60,000-70,000',
+      vacancies: 20,
+      posted: '2 days ago',
+      type: 'landbased',
+      placementFee: false,
+      education: 'high-school',
+      experience: true
+    },
+    {
+      id: 10,
+      title: 'WELDER (SMAW/GMAW/GTAW)',
+      company: 'QCON (Qatar Engineering & Construction)',
+      location: 'Doha, Qatar',
+      salary: 'PHP 70,000-80,000',
+      vacancies: 35,
+      posted: '2 days ago',
+      type: 'landbased',
+      placementFee: false,
+      education: 'high-school',
+      experience: true
+    },
+    {
+      id: 11,
+      title: 'ELECTRICIAN',
+      company: 'QCON (Qatar Engineering & Construction)',
+      location: 'Doha, Qatar',
+      salary: 'PHP 70,000-80,000',
+      vacancies: 28,
+      posted: '2 days ago',
+      type: 'landbased',
+      placementFee: false,
+      education: 'high-school',
+      experience: true
+    },
+    {
+      id: 12,
+      title: 'PLUMBER',
+      company: 'QCON (Qatar Engineering & Construction)',
+      location: 'Doha, Qatar',
+      salary: 'PHP 65,000-75,000',
+      vacancies: 22,
+      posted: '2 days ago',
+      type: 'landbased',
+      placementFee: false,
+      education: 'high-school',
+      experience: true
+    },
+    {
+      id: 13,
+      title: 'MECHANICAL TECHNICIAN',
+      company: 'QCON (Qatar Engineering & Construction)',
+      location: 'Doha, Qatar',
+      salary: 'PHP 75,000-85,000',
+      vacancies: 30,
+      posted: '2 days ago',
+      type: 'landbased',
+      placementFee: false,
+      education: 'high-school',
+      experience: true
+    },
+    {
+      id: 14,
+      title: 'SCAFFOLDER',
+      company: 'QCON (Qatar Engineering & Construction)',
+      location: 'Doha, Qatar',
+      salary: 'PHP 60,000-70,000',
+      vacancies: 40,
+      posted: '2 days ago',
+      type: 'landbased',
+      placementFee: false,
+      education: 'high-school',
+      experience: true
+    },
+    {
+      id: 15,
+      title: 'PIPE FITTER',
+      company: 'QCON (Qatar Engineering & Construction)',
+      location: 'Doha, Qatar',
+      salary: 'PHP 70,000-80,000',
+      vacancies: 25,
+      posted: '2 days ago',
+      type: 'landbased',
+      placementFee: false,
+      education: 'high-school',
+      experience: true
+    },
+    {
+      id: 16,
+      title: 'RIGGER',
+      company: 'QCON (Qatar Engineering & Construction)',
+      location: 'Doha, Qatar',
+      salary: 'PHP 65,000-75,000',
+      vacancies: 18,
+      posted: '2 days ago',
+      type: 'landbased',
+      placementFee: false,
+      education: 'high-school',
+      experience: true
+    },
+    {
+      id: 17,
+      title: 'HVAC TECHNICIAN',
+      company: 'QCON (Qatar Engineering & Construction)',
+      location: 'Doha, Qatar',
+      salary: 'PHP 70,000-80,000',
+      vacancies: 20,
+      posted: '2 days ago',
+      type: 'landbased',
+      placementFee: false,
+      education: 'high-school',
+      experience: true
+    },
+    {
+      id: 18,
+      title: 'CONSTRUCTION WORKER',
+      company: 'QCON (Qatar Engineering & Construction)',
+      location: 'Doha, Qatar',
+      salary: 'PHP 55,000-65,000',
+      vacancies: 50,
+      posted: '2 days ago',
+      type: 'landbased',
+      placementFee: false,
+      education: 'high-school',
+      experience: true
+    },
+    {
+      id: 19,
+      title: 'INSTRUMENT TECHNICIAN',
+      company: 'QCON (Qatar Engineering & Construction)',
+      location: 'Doha, Qatar',
+      salary: 'PHP 75,000-85,000',
+      vacancies: 15,
+      posted: '2 days ago',
+      type: 'landbased',
+      placementFee: false,
+      education: 'high-school',
+      experience: true
+    },
+    {
+      id: 20,
+      title: 'MASON',
+      company: 'QCON (Qatar Engineering & Construction)',
+      location: 'Doha, Qatar',
+      salary: 'PHP 60,000-70,000',
+      vacancies: 30,
+      posted: '2 days ago',
+      type: 'landbased',
+      placementFee: false,
+      education: 'high-school',
+      experience: true
+    },
+    {
+      id: 21,
+      title: 'PAINTER',
+      company: 'QCON (Qatar Engineering & Construction)',
+      location: 'Doha, Qatar',
+      salary: 'PHP 55,000-65,000',
+      vacancies: 25,
+      posted: '2 days ago',
+      type: 'landbased',
+      placementFee: false,
+      education: 'high-school',
+      experience: true
+    },
+    // Other Jobs
     {
       id: 1,
       title: 'COOK',
@@ -245,7 +444,11 @@ export function JobPortal() {
               {/* Filter Badges */}
               <div className="flex flex-wrap gap-2 sm:gap-2.5">
                 <button
-                  className={`bg-[#ffca1a] border-[0.8px] border-transparent rounded-lg px-3 py-2 sm:px-2.5 sm:py-1.5 text-[13px] sm:text-[14px] leading-[20px] text-[#101828] flex items-center gap-1.5 sm:gap-2 hover:bg-[#e6b617] transition-colors touch-manipulation ${activeFilters.includes('landbased') ? 'bg-[#e6b617]' : ''}`}
+                  className={`border-[0.8px] rounded-lg px-3 py-2 sm:px-2.5 sm:py-1.5 text-[13px] sm:text-[14px] leading-[20px] flex items-center gap-1.5 sm:gap-2 transition-colors touch-manipulation ${
+                    activeFilters.includes('landbased') 
+                      ? 'bg-[#ffca1a] text-[#101828] border-[#ffca1a]' 
+                      : 'bg-white text-[#364153] border-white/50 hover:bg-gray-50'
+                  }`}
                   onClick={() => {
                     if (activeFilters.includes('landbased')) {
                       setActiveFilters(activeFilters.filter(filter => filter !== 'landbased'));
@@ -257,15 +460,19 @@ export function JobPortal() {
                   <div className="w-3 h-3 shrink-0">
                     <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 12 12">
                       <g>
-                        <path d={svgPaths.p2e0e03b4} stroke="#101828" strokeLinecap="round" strokeLinejoin="round" />
-                        <path d={svgPaths.p39c8900} stroke="#101828" strokeLinecap="round" strokeLinejoin="round" />
+                        <path d={svgPaths.p2e0e03b4} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
+                        <path d={svgPaths.p39c8900} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
                       </g>
                     </svg>
                   </div>
                   Landbased
                 </button>
                 <button
-                  className={`bg-white border-[0.8px] border-white/50 rounded-lg px-3 py-2 sm:px-2.5 sm:py-1.5 text-[13px] sm:text-[14px] leading-[20px] text-[#364153] hover:bg-gray-50 transition-colors touch-manipulation ${activeFilters.includes('no-placement-fee') ? 'bg-[#ffca1a] text-[#101828] border-[#ffca1a]' : ''}`}
+                  className={`border-[0.8px] rounded-lg px-3 py-2 sm:px-2.5 sm:py-1.5 text-[13px] sm:text-[14px] leading-[20px] transition-colors touch-manipulation ${
+                    activeFilters.includes('no-placement-fee') 
+                      ? 'bg-[#ffca1a] text-[#101828] border-[#ffca1a]' 
+                      : 'bg-white text-[#364153] border-white/50 hover:bg-gray-50'
+                  }`}
                   onClick={() => {
                     if (activeFilters.includes('no-placement-fee')) {
                       setActiveFilters(activeFilters.filter(filter => filter !== 'no-placement-fee'));
@@ -277,7 +484,11 @@ export function JobPortal() {
                   No Placement Fee
                 </button>
                 <button
-                  className={`bg-white border-[0.8px] border-white/50 rounded-lg px-3 py-2 sm:px-2.5 sm:py-1.5 text-[13px] sm:text-[14px] leading-[20px] text-[#364153] hover:bg-gray-50 transition-colors touch-manipulation ${activeFilters.includes('high-school-graduate') ? 'bg-[#ffca1a] text-[#101828] border-[#ffca1a]' : ''}`}
+                  className={`border-[0.8px] rounded-lg px-3 py-2 sm:px-2.5 sm:py-1.5 text-[13px] sm:text-[14px] leading-[20px] transition-colors touch-manipulation ${
+                    activeFilters.includes('high-school-graduate') 
+                      ? 'bg-[#ffca1a] text-[#101828] border-[#ffca1a]' 
+                      : 'bg-white text-[#364153] border-white/50 hover:bg-gray-50'
+                  }`}
                   onClick={() => {
                     if (activeFilters.includes('high-school-graduate')) {
                       setActiveFilters(activeFilters.filter(filter => filter !== 'high-school-graduate'));
@@ -289,7 +500,11 @@ export function JobPortal() {
                   High School Graduate
                 </button>
                 <button
-                  className={`bg-white border-[0.8px] border-white/50 rounded-lg px-3 py-2 sm:px-2.5 sm:py-1.5 text-[13px] sm:text-[14px] leading-[20px] text-[#364153] hover:bg-gray-50 transition-colors touch-manipulation ${activeFilters.includes('no-work-experience') ? 'bg-[#ffca1a] text-[#101828] border-[#ffca1a]' : ''}`}
+                  className={`border-[0.8px] rounded-lg px-3 py-2 sm:px-2.5 sm:py-1.5 text-[13px] sm:text-[14px] leading-[20px] transition-colors touch-manipulation ${
+                    activeFilters.includes('no-work-experience') 
+                      ? 'bg-[#ffca1a] text-[#101828] border-[#ffca1a]' 
+                      : 'bg-white text-[#364153] border-white/50 hover:bg-gray-50'
+                  }`}
                   onClick={() => {
                     if (activeFilters.includes('no-work-experience')) {
                       setActiveFilters(activeFilters.filter(filter => filter !== 'no-work-experience'));
@@ -309,6 +524,161 @@ export function JobPortal() {
       {/* Job Cards Section */}
       <div className="py-6 sm:py-8 md:py-12 bg-white">
         <div className="max-w-[1236px] mx-auto px-4 sm:px-6 md:px-8">
+          
+          {/* Featured Job Opportunity Banner */}
+          <div className="mb-8 sm:mb-10 md:mb-12">
+            <div className="bg-gradient-to-r from-[#17960b] to-[#0d5e06] rounded-2xl p-1">
+              <div className="bg-white rounded-xl overflow-hidden">
+                <div className="p-4 sm:p-6 md:p-8">
+                  <div className="flex items-center gap-2 mb-4">
+                    <div className="bg-[#ffca1a] text-[#101828] px-3 py-1 rounded-full text-xs sm:text-sm font-semibold">
+                      FEATURED OPPORTUNITY
+                    </div>
+                    <div className="bg-red-500 text-white px-3 py-1 rounded-full text-xs sm:text-sm font-semibold animate-pulse">
+                      NO PLACEMENT FEE
+                    </div>
+                  </div>
+                  
+                  <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#101828] mb-4">
+                    QCON - Excellent Opportunities in Qatar
+                  </h2>
+                  
+                  <div className="bg-gradient-to-r from-blue-50 to-green-50 rounded-lg p-4 mb-6">
+                    <h3 className="text-lg font-bold text-[#17960b] mb-3">Available Positions:</h3>
+                    <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-2">
+                      <div className="flex items-start gap-2">
+                        <span className="text-[#17960b] text-lg mt-0.5">•</span>
+                        <span className="text-sm font-medium text-gray-800">Heavy Equipment Operator</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <span className="text-[#17960b] text-lg mt-0.5">•</span>
+                        <span className="text-sm font-medium text-gray-800">Truck Driver (1,2,3,4,5,15)</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <span className="text-[#17960b] text-lg mt-0.5">•</span>
+                        <span className="text-sm font-medium text-gray-800">Forklift Operator</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <span className="text-[#17960b] text-lg mt-0.5">•</span>
+                        <span className="text-sm font-medium text-gray-800">Welder (SMAW/GMAW/GTAW)</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <span className="text-[#17960b] text-lg mt-0.5">•</span>
+                        <span className="text-sm font-medium text-gray-800">Electrician</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <span className="text-[#17960b] text-lg mt-0.5">•</span>
+                        <span className="text-sm font-medium text-gray-800">Plumber</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <span className="text-[#17960b] text-lg mt-0.5">•</span>
+                        <span className="text-sm font-medium text-gray-800">Mechanical Technician</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <span className="text-[#17960b] text-lg mt-0.5">•</span>
+                        <span className="text-sm font-medium text-gray-800">Scaffolder</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <span className="text-[#17960b] text-lg mt-0.5">•</span>
+                        <span className="text-sm font-medium text-gray-800">Pipe Fitter</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <span className="text-[#17960b] text-lg mt-0.5">•</span>
+                        <span className="text-sm font-medium text-gray-800">Rigger</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <span className="text-[#17960b] text-lg mt-0.5">•</span>
+                        <span className="text-sm font-medium text-gray-800">HVAC Technician</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <span className="text-[#17960b] text-lg mt-0.5">•</span>
+                        <span className="text-sm font-medium text-gray-800">Construction Worker</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <span className="text-[#17960b] text-lg mt-0.5">•</span>
+                        <span className="text-sm font-medium text-gray-800">Instrument Technician</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <span className="text-[#17960b] text-lg mt-0.5">•</span>
+                        <span className="text-sm font-medium text-gray-800">Mason</span>
+                      </div>
+                      <div className="flex items-start gap-2">
+                        <span className="text-[#17960b] text-lg mt-0.5">•</span>
+                        <span className="text-sm font-medium text-gray-800">Painter</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="grid md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                      <h3 className="text-lg font-semibold text-[#17960b] mb-3">Highlights:</h3>
+                      <ul className="space-y-2 text-sm sm:text-base text-gray-700">
+                        <li className="flex items-start gap-2">
+                          <span className="text-[#17960b] mt-1">✓</span>
+                          <span>Long term employment</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-[#17960b] mt-1">✓</span>
+                          <span>Salary package will be best in the Industry</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-red-500 mt-1 font-bold">✓</span>
+                          <span className="font-semibold">NO PLACEMENT FEE</span>
+                        </li>
+                      </ul>
+                    </div>
+                    
+                    <div>
+                      <h3 className="text-lg font-semibold text-[#17960b] mb-3">Requirements:</h3>
+                      <ul className="space-y-2 text-sm sm:text-base text-gray-700">
+                        <li className="flex items-start gap-2">
+                          <span className="text-[#101828] mt-1">•</span>
+                          <span>Must have valid Driver's License (Under 1,2,3,4,5,15)</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-[#101828] mt-1">•</span>
+                          <span>Must have 2 years experience in Oil/Gas or Petrochemicals</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div className="bg-gray-50 rounded-lg p-4 mb-6">
+                    <p className="text-sm text-gray-700 mb-2">
+                      <span className="font-semibold text-red-500">Face to Face Interview Schedule (Tentative):</span>
+                    </p>
+                    <p className="text-sm text-[#101828] font-semibold mb-1">
+                      MANILA - FEB. 28 - MARCH 6, 2026
+                    </p>
+                    <p className="text-sm text-[#101828] font-semibold">
+                      CEBU - MARCH 8-10, 2026
+                    </p>
+                  </div>
+
+                  <div className="flex flex-col sm:flex-row gap-4 items-center justify-between">
+                    <div>
+                      <p className="text-sm text-gray-600 mb-2">Contact Details:</p>
+                      <div className="space-y-1 text-sm">
+                        <p className="font-semibold text-[#101828]">CP# 09171499075 / 09658309775</p>
+                        <p className="text-[#17960b]">landbasecv1@gmail.com</p>
+                      </div>
+                    </div>
+                    
+                    <button
+                      onClick={() => setShowPosterModal(true)}
+                      className="bg-[#ffca1a] hover:bg-[#e6b617] text-[#101828] px-6 py-3 rounded-lg font-semibold transition-colors shadow-md hover:shadow-lg flex items-center gap-2"
+                    >
+                      <span>View Full Details</span>
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Search Results Header */}
           {(searchQuery || locationQuery || isSearching || activeFilters.length > 0) && (
             <div className="mb-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
@@ -417,6 +787,36 @@ export function JobPortal() {
           )}
         </div>
       </div>
+
+      {/* Poster Modal */}
+      {showPosterModal && (
+        <div 
+          className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4"
+          onClick={() => setShowPosterModal(false)}
+        >
+          <div 
+            className="bg-white rounded-lg w-full max-w-5xl max-h-[95vh] overflow-auto"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="sticky top-0 bg-white border-b border-gray-200 px-6 py-4 flex justify-between items-center z-10">
+              <h2 className="text-xl font-bold text-gray-900">QCON - Qatar Job Opportunities</h2>
+              <button
+                onClick={() => setShowPosterModal(false)}
+                className="text-gray-500 hover:text-gray-700 hover:bg-gray-100 p-2 rounded-full transition-colors"
+              >
+                <X className="w-6 h-6" />
+              </button>
+            </div>
+            <div className="p-6">
+              <img
+                src={featuredJobPoster}
+                alt="QCON Featured Job Poster"
+                className="w-full h-auto rounded-lg shadow-lg"
+              />
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
