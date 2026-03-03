@@ -152,6 +152,7 @@ Values and services
 Access: Requires login
 
 UTILITY COMPONENTS
+
 20. /components/ChatBot.tsx
 Purpose: Customer support chatbot
 Location: Only visible on Job Portal homepage
@@ -159,6 +160,7 @@ Features:
 Automated responses
 Help with navigation
 Job search assistance
+
 21. /components/SignUpPrompt.tsx
 Purpose: Prompt users to create account
 Used For: Blocking protected pages
@@ -184,5 +186,6 @@ Figma Components
 /imports/ResumeBuilderPersonal.tsx - Personal info design
 Protected Image Component
 /components/figma/ImageWithFallback.tsx - Image handler (DO NOT MODIFY)
+
 
 
