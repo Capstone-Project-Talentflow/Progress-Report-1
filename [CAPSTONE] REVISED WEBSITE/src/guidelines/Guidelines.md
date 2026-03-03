@@ -176,16 +176,25 @@ Features: Login/signup logic
 
 
 FIGMA IMPORTS (/imports/)
+
 SVG Assets
 /imports/svg-3nnvnkmfcx.ts - Icons for Job Portal
+
 /imports/svg-65zdysylli.ts - Additional icons
+
 /imports/svg-f640k20hpn.ts - More graphics
+
 Figma Components
+
 /imports/LandingPage.tsx - Figma landing page design
+
 /imports/ResumeBuilder-4029-658.tsx - Figma resume builder design
+
 /imports/ResumeBuilderPersonal.tsx - Personal info design
+
 Protected Image Component
 /components/figma/ImageWithFallback.tsx - Image handler (DO NOT MODIFY)
+
 
 
 
