@@ -1,0 +1,4 @@
+import { ImageWithFallback } from './components/figma/ImageWithFallback';
+
+// Then use:
+<ImageWithFallback src="YOUR_IMAGE_URL" alt="Landbase Logo" />
